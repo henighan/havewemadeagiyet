@@ -1,6 +1,6 @@
 # Have We Made AGI Yet?
 
-Resources for making the very sophisticated website [havewemadeagiyet.com].
+Resources for making the very sophisticated website [havewemadeagiyet.com](havewemadeagiyet.com).
 
 ## Purchase Domain Name
 I bought the domain name havewemadeagiyet.com through [google domains](https://domains.google/). It was not registered by anyone so it was pretty easy.
@@ -10,10 +10,10 @@ I made a google cloud account and followed the directions for making a project c
 
 
 ## The html
-[index.html] holds the static webpage. To see it, you can just open it with your web-browser of choice using file->open
+[index.html](index.html) holds the static webpage. To see it, you can just open it with your web-browser of choice using file->open
 
 ## Docker image
-[Dockerfile] holds the docker image definiton. Its a nginx (a popular webserver) docker image where I added the above html file as the static webpage to be served.
+[Dockerfile](Dockerfile) holds the docker image definiton. Its a nginx (a popular webserver) docker image where I added the above html file as the static webpage to be served.
 
 ### Build the docker image:
 ```
@@ -41,14 +41,14 @@ gcloud compute addresses create havewemadeagiyet --region us-west1
 ```
 gcloud compute addresses describe havewemadeagiyet --region us-west1
 ```
-Put the IP address shown into the `loadBalancerIP` field of [./webserver-service.yaml].
+Put the IP address shown into the `loadBalancerIP` field of [webserver-service.yaml](webserver-service.yaml).
 
 ## Deploy Kubernetes Resources
 In the google cloud web console, navigate to the kubernetes cluster and launch the "cloud shell". Once its up and running, do this to authenticate:
 ```
 gcloud container clusters get-credentials havewemadeagiyet --zone us-west1-a
 ```
-Now copy [webserver-deploy.yaml](./webserver-deploy.yaml) and [./webserver-service.yaml] from this directory into the cloud shell. Now launch them as follows:
+Now copy [webserver-deploy.yaml](./webserver-deploy.yaml) and [webserver-service.yaml](webserver-service.yaml) from this directory into the cloud shell. Now launch them as follows:
 ```
 kubectl create -f ./webserver-deploy.yaml
 kubectl create -f ./webserver-service.yaml
