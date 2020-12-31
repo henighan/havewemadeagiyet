@@ -48,7 +48,7 @@ In the google cloud web console, navigate to the kubernetes cluster and launch t
 ```
 gcloud container clusters get-credentials havewemadeagiyet --zone us-west1-a
 ```
-Now copy [./webserver-deploy.yaml] and [./webserver-service.yaml] from this directory into the cloud shell. Now launch them as follows:
+Now copy [webserver-deploy.yaml](./webserver-deploy.yaml) and [./webserver-service.yaml] from this directory into the cloud shell. Now launch them as follows:
 ```
 kubectl create -f ./webserver-deploy.yaml
 kubectl create -f ./webserver-service.yaml
