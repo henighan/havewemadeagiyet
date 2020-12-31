@@ -1,6 +1,7 @@
 # Have We Made AGI Yet?
 
-Resources for making the very sophisticated website [havewemadeagiyet.com](havewemadeagiyet.com).
+Resources for making the very sophisticated website [havewemadeagiyet.com](http://www.havewemadeagiyet.com).
+I shamelessly stole the idea from the creators of [hasthelargehadroncolliderdestroyedtheworldyet.com](http://www.hasthelargehadroncolliderdestroyedtheworldyet.com/)
 
 ## Purchase Domain Name
 I bought the domain name havewemadeagiyet.com through [google domains](https://domains.google/). It was not registered by anyone so it was pretty easy.
