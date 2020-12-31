@@ -63,7 +63,7 @@ You should also have a service running, which is showing its external IP as the 
 kubectl get service
 ```
 
-## Point Domain Name to the Application
 At this point, the site should be hosted publicly at the IP address we keep talking about. If you copy-paste that IP address into your browser, you should see the site.
 
+## Point Domain Name to the Application
 To link the purchased domain name havewemadeagiyet.com to this IP, I followed [these directions](https://cloud.google.com/dns/docs/quickstart#create_a_new_record). 
