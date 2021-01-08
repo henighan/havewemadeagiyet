@@ -1,0 +1,8 @@
+apiVersion: networking.gke.io/v1beta2
+kind: ManagedCertificate
+metadata:
+  name: agiyet-cert
+spec:
+  domains:
+    - havewemadeagiyet.com
+    - www.havewemadeagiyet.com

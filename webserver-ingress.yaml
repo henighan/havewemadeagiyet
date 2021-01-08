@@ -1,0 +1,11 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: webserver-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: "madeagi-ip"
+    networking.gke.io/managed-certificates: "agiyet-cert"
+spec:
+  backend:
+    serviceName: webserver
+    servicePort: 80

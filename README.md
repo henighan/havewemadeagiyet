@@ -36,11 +36,11 @@ You will probably have to do some additional authentication stuff to make the ab
 ## Create Static IP address
 ### Create
 ```
-gcloud compute addresses create havewemadeagiyet --region us-west1
+gcloud compute addresses create madeagi-ip --global
 ```
 ### Get IP address
 ```
-gcloud compute addresses describe havewemadeagiyet --region us-west1
+gcloud compute addresses describe madeagi-ip --global
 ```
 Put the IP address shown into the `loadBalancerIP` field of [webserver-service.yaml](webserver-service.yaml).
 
