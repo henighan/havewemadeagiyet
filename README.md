@@ -1,4 +1,5 @@
 # Have We Made AGI Yet?
+Status: Deprecated. I'm now using [this](https://github.com/henighan/s3-havewemadeagi) to host this website. Although this was a fun exercise in making my own kube cluster, it was more expensive than necessary for hosing a website.
 
 This repos holds the resources for making website [havewemadeagiyet.com](http://www.havewemadeagiyet.com).
 I shamelessly stole the idea from the creators of [hasthelargehadroncolliderdestroyedtheworldyet.com](http://www.hasthelargehadroncolliderdestroyedtheworldyet.com/). Note that while I decided to use kubernetes as a learning exercise, there are much simpler ways of deploying a static webpage like this. 
